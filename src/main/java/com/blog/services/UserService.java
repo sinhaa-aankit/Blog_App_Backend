@@ -6,7 +6,7 @@ import com.blog.payloads.UserDto;
 
 public interface UserService {
 
-		UserDto createUser(UserDto user);
+		UserDto createUser(UserDto userDto);
 		
 		UserDto updateUser(UserDto user, Integer userId);
 		
